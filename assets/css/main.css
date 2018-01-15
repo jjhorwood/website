@@ -1039,6 +1039,7 @@
 	.icon {
 		position: relative;
 		text-decoration: none;
+		color: white;
 	}
 
 		.icon:before {
