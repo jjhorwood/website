@@ -674,7 +674,7 @@ function drawBottomHud() {
                  player.clipRect.h * 0.5);
   fillText('CREDITS: ', CANVAS_WIDTH - 115, CANVAS_HEIGHT - 7.5);
   fillCenteredText('SCORE: ' + player.score, CANVAS_WIDTH/2, 20);
-  fillBlinkingText('00', CANVAS_WIDTH - 25, CANVAS_HEIGHT - 7.5, TEXT_BLINK_FREQ);
+  fillBlinkingText('00', CANVAS_WIDTH - 15, CANVAS_HEIGHT - 7.5, TEXT_BLINK_FREQ);
 }
 
 function drawAliens(resized) {
